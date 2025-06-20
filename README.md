@@ -23,14 +23,14 @@ python3 test/rag_test.py
 ```
 This uses 4-bit quantization and trains q_proj and v_proj using LoRA.
 
-### Step 3: ✅ Test RAG with QLoRA Adapter
+### Step 3: Test RAG with QLoRA Adapter
 Load the fine-tuned model and test it on relevant questions.
 
 ```bash
 python3 test/rag_and_qlora_test.py
 ```
 
-### Step 4: 🧩 Run Chatbot as REST API
+### Step 4: Run Chatbot as REST API
 Start the Flask API server.
 
 ```bash
