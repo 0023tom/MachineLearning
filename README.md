@@ -4,27 +4,6 @@ This is a Retrieval-Augmented Generation (RAG) chatbot powered by the [Phi-2](ht
 
 ---
 
-## Directory Structure
-├── api/
-│ ├── app.py # Flask API to serve chatbot
-│ └── chatbot.py # Main chatbot logic with RAG + QLoRA
-├── classifier/
-│ └── filter.py # Topic filter for Sibu-related questions
-├── conversation/
-│ └── memory.py # Sliding window memory for chat history
-├── data/
-│ └── malaysian_english.jsonl # Fine-tuning data for QLoRA
-├── pdf2vault/
-│ ├── 07-GUIDE-SIBU-CENTRAL-v2.pdf # Core document used for RAG
-│ └── Short-Info_Sibu_latest.pdf # Optional secondary PDF
-├── test/
-│ ├── rag_test.py # Test RAG setup with base model
-│ └── rag_and_qlora_test.py # Test response with QLoRA adapter
-├── qlora_train.py # QLoRA fine-tuning script
-└── README.md # This file
-
----
-
 ## How to Use
 
 ### Step 1: Test Base Model and RAG Setup
